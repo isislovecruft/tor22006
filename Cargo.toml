@@ -1,0 +1,14 @@
+[package]
+name = "tor22006"
+version = "0.1.0"
+authors = ["Isis Lovecruft <isis@torproject.org>"]
+
+[dev-dependencies]
+rand = "*"
+
+[dependencies.curve25519-dalek]
+version = "*"
+features = ["nightly", "yolocrypto"]
+
+[features]
+bench = []
